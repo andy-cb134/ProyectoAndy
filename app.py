@@ -26,7 +26,7 @@ def init_connection():
 try:
     cliente = init_connection()
 
-    db = cliente["ProyectoAndy"]
+    db = cliente["Biblioteca"]
 
     coleccion_libros = db["Libros"]
     coleccion_usuarios = db["Usuarios"]
